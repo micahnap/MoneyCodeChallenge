@@ -12,6 +12,7 @@
 		DB3BE0EC23A47EC30075A7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */; };
 		DB3BE0F723A47EC40075A7E6 /* QantasMoneyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0F623A47EC40075A7E6 /* QantasMoneyChallengeTests.swift */; };
 		DB3BE10223A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */; };
+		DB3BE11223A4A2410075A7E6 /* AccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11123A4A2410075A7E6 /* AccountCoordinator.swift */; };
 		DB3BE11423A58ED90075A7E6 /* AccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11323A58ED90075A7E6 /* AccountClient.swift */; };
 		DB3BE11E23A5DE560075A7E6 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11D23A5DE560075A7E6 /* AccountService.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		DB3BE0FD23A47EC40075A7E6 /* QantasMoneyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QantasMoneyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasMoneyChallengeUITests.swift; sourceTree = "<group>"; };
 		DB3BE10323A47EC40075A7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3BE11123A4A2410075A7E6 /* AccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCoordinator.swift; sourceTree = "<group>"; };
 		DB3BE11323A58ED90075A7E6 /* AccountClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClient.swift; sourceTree = "<group>"; };
 		DB3BE11D23A5DE560075A7E6 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
