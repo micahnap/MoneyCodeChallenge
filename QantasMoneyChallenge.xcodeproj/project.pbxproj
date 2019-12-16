@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DB3BE0E023A47EC10075A7E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0DF23A47EC10075A7E6 /* AppDelegate.swift */; };
-		DB3BE0E223A47EC10075A7E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0E123A47EC10075A7E6 /* SceneDelegate.swift */; };
-		DB3BE0E423A47EC10075A7E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0E323A47EC10075A7E6 /* ViewController.swift */; };
-		DB3BE0E723A47EC10075A7E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE0E523A47EC10075A7E6 /* Main.storyboard */; };
 		DB3BE0E923A47EC30075A7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE0E823A47EC30075A7E6 /* Assets.xcassets */; };
 		DB3BE0EC23A47EC30075A7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */; };
 		DB3BE0F723A47EC40075A7E6 /* QantasMoneyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0F623A47EC40075A7E6 /* QantasMoneyChallengeTests.swift */; };
@@ -37,9 +34,6 @@
 /* Begin PBXFileReference section */
 		DB3BE0DC23A47EC10075A7E6 /* QantasMoneyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QantasMoneyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE0DF23A47EC10075A7E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB3BE0E123A47EC10075A7E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB3BE0E323A47EC10075A7E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB3BE0E623A47EC10075A7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3BE0E823A47EC30075A7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3BE0EB23A47EC30075A7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB3BE0ED23A47EC30075A7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				DB3BE0DF23A47EC10075A7E6 /* AppDelegate.swift */,
-				DB3BE0E123A47EC10075A7E6 /* SceneDelegate.swift */,
-				DB3BE0E323A47EC10075A7E6 /* ViewController.swift */,
-				DB3BE0E523A47EC10075A7E6 /* Main.storyboard */,
 				DB3BE0E823A47EC30075A7E6 /* Assets.xcassets */,
 				DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */,
 				DB3BE0ED23A47EC30075A7E6 /* Info.plist */,
@@ -233,7 +224,9 @@
 			files = (
 				DB3BE0EC23A47EC30075A7E6 /* LaunchScreen.storyboard in Resources */,
 				DB3BE0E923A47EC30075A7E6 /* Assets.xcassets in Resources */,
-				DB3BE0E723A47EC10075A7E6 /* Main.storyboard in Resources */,
+				DB3BE11823A5D4DA0075A7E6 /* AccountViewController.xib in Resources */,
+				DB3BE12423A600350075A7E6 /* TransactionCell.xib in Resources */,
+				DB3BE12623A6159E0075A7E6 /* TransactionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3BE0E423A47EC10075A7E6 /* ViewController.swift in Sources */,
+				DB3BE12823A6FFC90075A7E6 /* TransactionDetailsViewController.swift in Sources */,
+				DB3BE12023A5FD500075A7E6 /* TransactionViewController.swift in Sources */,
+				DB3BE11A23A5D6B80075A7E6 /* AccountCell.swift in Sources */,
+				DB3BE11623A5D4B80075A7E6 /* AccountViewController.swift in Sources */,
 				DB3BE0E023A47EC10075A7E6 /* AppDelegate.swift in Sources */,
-				DB3BE0E223A47EC10075A7E6 /* SceneDelegate.swift in Sources */,
+				DB3BE12223A600250075A7E6 /* TransactionCell.swift in Sources */,
+				DB3BE11223A4A2410075A7E6 /* AccountCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB3BE0E523A47EC10075A7E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB3BE0E623A47EC10075A7E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -365,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -419,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
