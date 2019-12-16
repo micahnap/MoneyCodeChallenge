@@ -19,6 +19,10 @@
 		DB3BE11A23A5D6B80075A7E6 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11923A5D6B80075A7E6 /* AccountCell.swift */; };
 		DB3BE11C23A5D6E70075A7E6 /* AccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE11B23A5D6E70075A7E6 /* AccountCell.xib */; };
 		DB3BE11E23A5DE560075A7E6 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11D23A5DE560075A7E6 /* AccountService.swift */; };
+		DB3BE12023A5FD500075A7E6 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11F23A5FD500075A7E6 /* TransactionViewController.swift */; };
+		DB3BE12223A600250075A7E6 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE12123A600250075A7E6 /* TransactionCell.swift */; };
+		DB3BE12423A600350075A7E6 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE12323A600350075A7E6 /* TransactionCell.xib */; };
+		DB3BE12623A6159E0075A7E6 /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE12523A6159E0075A7E6 /* TransactionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		DB3BE11923A5D6B80075A7E6 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 		DB3BE11B23A5D6E70075A7E6 /* AccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCell.xib; sourceTree = "<group>"; };
 		DB3BE11D23A5DE560075A7E6 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		DB3BE11F23A5FD500075A7E6 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		DB3BE12123A600250075A7E6 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		DB3BE12323A600350075A7E6 /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		DB3BE12523A6159E0075A7E6 /* TransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
