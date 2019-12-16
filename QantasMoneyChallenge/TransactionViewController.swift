@@ -78,11 +78,11 @@ class TransactionViewController: UIViewController {
 	}
 
 	private func loadData() {
-		service.getTransactions { (result) in
+		service.getTransactions { [weak self] (result) in
 			switch result {
 			case .success(let transactions):
-				self.transactions = transactions.sorted(by: { $0.created < $1.created } )
-				self.tableView.reloadData()
+				self?.transactions = transactions.sorted(by: { $0.created < $1.created } )
+				self?.tableView.reloadData()
 			case .failure(let error):
 				assertionFailure(error.localizedDescription)
 			}
