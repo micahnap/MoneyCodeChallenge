@@ -13,6 +13,7 @@
 		DB3BE0F723A47EC40075A7E6 /* QantasMoneyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0F623A47EC40075A7E6 /* QantasMoneyChallengeTests.swift */; };
 		DB3BE10223A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */; };
 		DB3BE11423A58ED90075A7E6 /* AccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11323A58ED90075A7E6 /* AccountClient.swift */; };
+		DB3BE11E23A5DE560075A7E6 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11D23A5DE560075A7E6 /* AccountService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasMoneyChallengeUITests.swift; sourceTree = "<group>"; };
 		DB3BE10323A47EC40075A7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB3BE11323A58ED90075A7E6 /* AccountClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClient.swift; sourceTree = "<group>"; };
+		DB3BE11D23A5DE560075A7E6 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DB3BE11723A5D4DA0075A7E6 /* AccountViewController.xib */,
 				DB3BE11923A5D6B80075A7E6 /* AccountCell.swift */,
 				DB3BE11B23A5D6E70075A7E6 /* AccountCell.xib */,
+				DB3BE11D23A5DE560075A7E6 /* AccountService.swift */,
 				DB3BE12123A600250075A7E6 /* TransactionCell.swift */,
 				DB3BE12323A600350075A7E6 /* TransactionCell.xib */,
 				DB3BE11F23A5FD500075A7E6 /* TransactionViewController.swift */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3BE11E23A5DE560075A7E6 /* AccountService.swift in Sources */,
 				DB3BE12823A6FFC90075A7E6 /* TransactionDetailsViewController.swift in Sources */,
 				DB3BE12023A5FD500075A7E6 /* TransactionViewController.swift in Sources */,
 				DB3BE11423A58ED90075A7E6 /* AccountClient.swift in Sources */,
