@@ -12,6 +12,7 @@
 		DB3BE0EC23A47EC30075A7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */; };
 		DB3BE0F723A47EC40075A7E6 /* QantasMoneyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE0F623A47EC40075A7E6 /* QantasMoneyChallengeTests.swift */; };
 		DB3BE10223A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */; };
+		DB3BE11423A58ED90075A7E6 /* AccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE11323A58ED90075A7E6 /* AccountClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		DB3BE0FD23A47EC40075A7E6 /* QantasMoneyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QantasMoneyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE10123A47EC40075A7E6 /* QantasMoneyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasMoneyChallengeUITests.swift; sourceTree = "<group>"; };
 		DB3BE10323A47EC40075A7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3BE11323A58ED90075A7E6 /* AccountClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,19 @@
 				DB3BE0E823A47EC30075A7E6 /* Assets.xcassets */,
 				DB3BE0EA23A47EC30075A7E6 /* LaunchScreen.storyboard */,
 				DB3BE0ED23A47EC30075A7E6 /* Info.plist */,
+				DB3BE11123A4A2410075A7E6 /* AccountCoordinator.swift */,
+				DB3BE11323A58ED90075A7E6 /* AccountClient.swift */,
+				DB3BE11523A5D4B80075A7E6 /* AccountViewController.swift */,
+				DB3BE11723A5D4DA0075A7E6 /* AccountViewController.xib */,
+				DB3BE11923A5D6B80075A7E6 /* AccountCell.swift */,
+				DB3BE11B23A5D6E70075A7E6 /* AccountCell.xib */,
+				DB3BE12123A600250075A7E6 /* TransactionCell.swift */,
+				DB3BE12323A600350075A7E6 /* TransactionCell.xib */,
+				DB3BE11F23A5FD500075A7E6 /* TransactionViewController.swift */,
+				DB3BE12523A6159E0075A7E6 /* TransactionViewController.xib */,
+				DB3BE12723A6FFC90075A7E6 /* TransactionDetailsViewController.swift */,
+				DB3BE12923A702C90075A7E6 /* TransactionDetailViewController.xib */,
+				DB3BE12B23A70EDE0075A7E6 /* README.md */,
 			);
 			path = QantasMoneyChallenge;
 			sourceTree = "<group>";
@@ -253,6 +268,7 @@
 			files = (
 				DB3BE12823A6FFC90075A7E6 /* TransactionDetailsViewController.swift in Sources */,
 				DB3BE12023A5FD500075A7E6 /* TransactionViewController.swift in Sources */,
+				DB3BE11423A58ED90075A7E6 /* AccountClient.swift in Sources */,
 				DB3BE11A23A5D6B80075A7E6 /* AccountCell.swift in Sources */,
 				DB3BE11623A5D4B80075A7E6 /* AccountViewController.swift in Sources */,
 				DB3BE0E023A47EC10075A7E6 /* AppDelegate.swift in Sources */,
